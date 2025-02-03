@@ -10,17 +10,18 @@ const Projects = ({image,title,description}) => {
 <div>
    
     
-     <div class="max-w-sm rounded-sm overflow-hidden shadow-lg">
+     <div className="max-w-sm rounded-sm overflow-hidden shadow-lg">
     {/* image section */}
-  <img class="w-full" src={image} alt="Sunset in the mountains"/>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">{title}</div>
-    <p class="text-gray-700 text-base">{description}</p>
+  <img className="w-full" src={image} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">{title}</div>
+    <p className="text-gray-700 text-base">{description}</p>
   </div>
   
-    <div class="px-6 pt-4 pb-2 flex ">
-    <span class="inline-block  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">View In Dribbble</span>
+    <div className="px-6 pt-4 pb-2 flex ">
+    <span className="inline-block  px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">View In Dribbble</span>
     <GoArrowUpRight className='text-[#006B6A] mt-1 text-2xl -ml-[16px]'/>
+    
   
   
   </div>

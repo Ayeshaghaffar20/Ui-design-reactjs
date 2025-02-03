@@ -48,9 +48,9 @@ const Expertise = () => {
         <div className='px-5 md:px-10 lg:px-16 xl:px-20'>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
             {
-                expertiseData.map((item)=>{
+                expertiseData.map((item,index)=>{
                     return(
-                        <div className='space-y-4 p-6 rounded-xl bg-[#F5FCFF]'>
+                        <div key={index} className='space-y-4 p-6 rounded-xl bg-[#F5FCFF]'>
                             {/* image */}
                                 <div className='w-20 h-20'>{item.image}</div>
                             
