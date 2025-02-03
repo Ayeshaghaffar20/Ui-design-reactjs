@@ -59,9 +59,9 @@ const Form = () => {
       <label className="text-gray-700 font-medium">Select</label>
       <select  defaultValue=""  className="border-1 mt-2 border-[#5E3BEE] focus:outline-[#5E3BEE] rounded-md px-4 py-2 bg-white text-gray-700 w-full">
         <option disabled  value="" className="text-gray-400">Select...</option>
-        <option className='text-gray-700' value="Ahuse"></option>
-        <option className='text-gray-700' value="App Dashboard"></option>
-        <option className='text-gray-700' value="Easy Rent"></option>
+        <option className='text-gray-700' value="Ahuse">Ahuse</option>
+        <option className='text-gray-700' value="App Dashboard"> App Dashboard</option>
+        <option className='text-gray-700' value="Easy Rent">Easy Rent</option>
       </select>
     </div>
 

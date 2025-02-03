@@ -12,7 +12,7 @@ const Projects = ({image,title,description}) => {
     
      <div className="max-w-sm rounded-sm overflow-hidden shadow-lg">
     {/* image section */}
-  <img className="w-full" src={image} alt="Sunset in the mountains"/>
+  <img className="w-full" src={image} alt="project"/>
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">{title}</div>
     <p className="text-gray-700 text-base">{description}</p>
