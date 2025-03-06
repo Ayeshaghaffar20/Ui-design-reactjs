@@ -49,7 +49,8 @@ const Testimonial = () => {
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-15">
-            {testimonialsData.map((item) => (
+            {
+            testimonialsData.map((item) => (
                 <div key={item.id} className="w-full max-w-md mx-auto">
                     <div className="flex flex-col gap-5 p-6 shadow-lg rounded border border-[#006B6A] bg-white">
                         {/* Upper Section */}
