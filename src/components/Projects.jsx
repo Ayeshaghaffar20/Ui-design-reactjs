@@ -1,7 +1,7 @@
 import React from 'react'
-import image1 from '../assets/Images/Image-1.png'
-import image from '../assets/Images/Image.png'
-import image3 from '../assets/Images/Image-3.png'
+// import image1 from '../../public/assets/Images/Image-1.png'
+// import image from '../../public/assets/Images/Image.png'
+// import image3 from '../../public/assets/Images/Image-3.png'
 import { GoArrowUpRight } from "react-icons/go";
 
 const Projects = ({image,title,description}) => {

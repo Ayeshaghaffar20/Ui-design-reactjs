@@ -4,12 +4,16 @@ import HeroSection from './components/HeroSection'
 import Expertise from './components/Expertise'
 import About from './components/About'
 import Projects from './components/Projects'
-import image1 from './assets/Images/Image-1.png'
-import image from './assets/Images/Image.png'
-import image3 from './assets/Images/Image-3.png'
+// import image1 from "../../public/assets/Images/Image-1.png"
+// import image from '../../public/assets/Images/Image.png'
+// import image3 from '../../public/assets/Images/Image-3.png'
+import image1 from "/assets/Images/Image-1.png"
+import image from '/assets/Images/Image.png'
+import image3 from '/assets/Images/Image-3.png'
 import Form from './components/Form'
-import Footer from './components/Footer'
 import Testimonial from './components/Testimonial'
+import Footer from './components/Footer'
+
 
 const App = () => {
   const projectData =[
@@ -61,10 +65,10 @@ const App = () => {
       </div>
     </div>
 
-    <Testimonial/>
+     <Testimonial/>
 
     <Form/>
-    <Footer/>
+    <Footer/> 
     
 
     

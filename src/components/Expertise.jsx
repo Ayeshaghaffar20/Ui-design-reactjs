@@ -1,33 +1,42 @@
 import React from 'react'
-import strategyIcon from "../assets/Images/StrategyIcon.png"
-import brandingIcon from "../assets/Images/brandingIcon.png"
-import UIUXIcon from "../assets/Images/UI&UXIcon.png"
-import WebFlowIcon from "../assets/Images/WebFlowIcon.png"
+// import strategyIcon from "../../public/assets/Images/StrategyIcon.png"
+// import brandingIcon from "../../public/assets/Images/brandingIcon.png"
+// import UIUXIcon from "../../public/assets/Images/UI&UXIcon.png"
+// import WebFlowIcon from "../../public/assets/Images/WebFlowIcon.png"
+// import strategyIcon from "/assets/Images/StrategyIcon.png"
+// import brandingIcon from "/assets/Images/brandingIcon.png"
+// import UIUXIcon from "/assets/Images/UI&UXIcon.png"
+// import WebFlowIcon from "/assets/Images/WebFlowIcon.png"
 
 const expertiseData =[
     {
         id:1,
         title:"Strategy & Direction",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        image: <img src={strategyIcon} alt="" />
+        // image: <img src={strategyIcon} alt="" />
+        image: <img src="/assets/Images/StrategyIcon.png" alt="" />
     },
     {
         id:2,
         title:"Branding & Logo",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        image: <img src={brandingIcon} alt="" />
+        // image: <img src={brandingIcon} alt="" />
+        image: <img src="/assets/Images/brandingIcon.png" alt="" />
     },
      {
         id:3,
         title:"UI & UX Design",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        image: <img src={UIUXIcon} alt="" />
+        // image: <img src={UIUXIcon} alt="" />
+        image: <img src="/assets/Images/UI&UXIcon.png" alt="" />
     },
      {
         id:4,
         title:"Webflow Development",
         desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-        image: <img src={WebFlowIcon} alt="" />
+        // image: <img src={WebFlowIcon} alt="" />
+        image: <img src="/assets/Images/WebFlowIcon.png" alt="" />
+        
     }
 ]
 

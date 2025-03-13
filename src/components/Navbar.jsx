@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import logo from "../assets/Images/Logo.png"
+// import logo from "../../public/assets/Images/Logo.png"
+// import logo from "/assets/Images/logo.png"
 import { IoCloseOutline } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
 
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className="max-w-screen-2xl mx-auto py-4 px-5 flex justify-between items-center md:px-32 ">
                {/* logo */}
         <a href="#">
-            <img src={logo} alt="" className='w-32 hover:scale-105 transition-all' />
+            <img src="/assets/Images/logo.png" alt="" className='w-32 hover:scale-105 transition-all' />
         </a>
 
         {/* humburger manu for small dvices */}

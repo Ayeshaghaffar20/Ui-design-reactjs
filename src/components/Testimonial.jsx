@@ -1,8 +1,15 @@
 import React from 'react'
-import avatarImage1 from "../assets/Images/Avatar-Image1.png"
-import avatarImage2 from "../assets/Images/Avatar-Image2.png"
-import avatarImage3 from "../assets/Images/Avatar-Image3.png"
-import starImg from "../assets/Images/Stars.png"
+// import avatarImage1 from "../assets/Images/Avatar-Image1.png"
+// import avatarImage2 from "../../public/assets/Images/Avatar-Image2.png"
+// import avatarImage3 from "../../public/assets/Images/Avatar-Image3.png"
+// import avatarImage1 from "../../public/assets/Images/Avatar-Image1.png"
+// import starImg from "../../public/assets/Images/Stars.png"
+import avatarImage2 from "/assets/Images/Avatar-Image2.png"
+import avatarImage3 from "/assets/Images/Avatar-Image3.png"
+import avatarImage1 from "/assets/Images/Avatar-Image1.png"
+import starImg from "/assets/Images/Stars.png"
+
+
 
 const testimonialsData =[
     {

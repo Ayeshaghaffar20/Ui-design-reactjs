@@ -3,7 +3,8 @@ import { FaLinkedin} from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
-import logo from "../assets/Images/logo.png"
+// import logo from "../../public/assets/Images/logo.png"
+// import logo from "/assets/Images/logo.png"
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
       
       {/* Logo Section */}
       <div>
-        <img src={logo} alt="Logo" className="w-32" />
+        <img src="/assets/Images/logo.png" alt="Logo" className="w-32" />
       </div>
 
       {/* Navigation Links */}
